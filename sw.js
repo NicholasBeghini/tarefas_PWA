@@ -4,8 +4,8 @@ const urlsToCache = [
     '/tarefas_PWA/index.html',
     '/tarefas_PWA/style.css',
     '/tarefas_PWA/manifest.json',
-    '/tarefas_PWA/icons/icon-192x192.png',
-    '/tarefas_PWA/icons/icon-512x512.png'
+   '/icons/elite.png',
+    '/icons/mestre.png'
 ];
 
 self.addEventListener('install', event => {
@@ -25,4 +25,5 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
